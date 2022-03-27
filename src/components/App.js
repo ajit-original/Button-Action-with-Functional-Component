@@ -4,6 +4,7 @@ import "./../styles/App.css";
 const handleClick = () => {
   let para = document.createElement('p');
   para.textContent = "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy";
+  para.setAttribute("id", "para");
   document.querySelector("#main").appendChild(para);
 }
 
